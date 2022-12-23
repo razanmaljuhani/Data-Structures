@@ -1,0 +1,7 @@
+|Student ID  |Research Interest       |Suggested Topic                               |Courses                                        |Approval      |Supervisor ID |
+|            |                        |                                              |CPCS223|CPIS334|CPCS351|CPCS241|CPCS361|CPCS331|              |              |
+|1003        | network                | nan                                          |1      |1      |1      |1      |1      |1      |true          |00013         |
+|1723        | artificial intelligent | How the machine thinks: intelligent learning |1      |1      |1      |1      |1      |1      |true          |00023         |
+|1743        | artificial intelligent | nan                                          |1      |1      |1      |0      |0      |0      |false         |0             |
+|1777        | database               | nan                                          |1      |1      |1      |0      |0      |0      |false         |0             |
+

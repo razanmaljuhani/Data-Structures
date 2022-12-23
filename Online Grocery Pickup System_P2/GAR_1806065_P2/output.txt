@@ -1,0 +1,494 @@
+|-----------------------------------------------|
+|-------- Online Grocery Pickup System ---------|
+|-----------------------------------------------|
+| 1. Add a new order |
+| 2. Lookup the first order|
+| 3. Fulfill order |
+| 4. Restock orders |
+| 5. Print Orders |
+| 6. Exit |
+|-----------------------------------------------|
+
+Please enter your choice: 1
+Please enter the order information:
+
+
+customer ID: 
+100
+
+customer name: 
+Ali
+
+order time: 
+12:00
+
+pickup time: 
+13:00
+
+order items: 
+Potato,Apple
+
+quantality: 
+3kg,8kg
+Can’t add the order because the order pick-up time less than 2 hours!!!
+
+
+|-----------------------------------------------|
+|-------- Online Grocery Pickup System ---------|
+|-----------------------------------------------|
+| 1. Add a new order |
+| 2. Lookup the first order|
+| 3. Fulfill order |
+| 4. Restock orders |
+| 5. Print Orders |
+| 6. Exit |
+|-----------------------------------------------|
+
+Please enter your choice: 1
+Please enter the order information:
+
+
+customer ID: 
+200
+
+customer name: 
+Razan
+
+order time: 
+12:00
+
+pickup time: 
+14:00
+
+order items: 
+Tomato,Milk,Ric
+
+quantality: 
+4kg,8kg,10kg
+The order is added!
+
+
+|-----------------------------------------------|
+|-------- Online Grocery Pickup System ---------|
+|-----------------------------------------------|
+| 1. Add a new order |
+| 2. Lookup the first order|
+| 3. Fulfill order |
+| 4. Restock orders |
+| 5. Print Orders |
+| 6. Exit |
+|-----------------------------------------------|
+
+Please enter your choice: 1
+Please enter the order information:
+
+
+customer ID: 
+300
+
+customer name: 
+Layan
+
+order time: 
+3:00
+
+pickup time: 
+5:30
+
+order items: 
+Apple,Milk
+
+quantality: 
+3kg,8kg
+The order is added!
+
+
+|-----------------------------------------------|
+|-------- Online Grocery Pickup System ---------|
+|-----------------------------------------------|
+| 1. Add a new order |
+| 2. Lookup the first order|
+| 3. Fulfill order |
+| 4. Restock orders |
+| 5. Print Orders |
+| 6. Exit |
+|-----------------------------------------------|
+
+Please enter your choice: 1
+Please enter the order information:
+
+
+customer ID: 
+400
+
+customer name: 
+Lama
+
+order time: 
+16:00
+
+pickup time: 
+20:00
+
+order items: 
+Potato,Tomato,Ric
+
+quantality: 
+2kg,8kg,11kg
+The order is added!
+
+
+|-----------------------------------------------|
+|-------- Online Grocery Pickup System ---------|
+|-----------------------------------------------|
+| 1. Add a new order |
+| 2. Lookup the first order|
+| 3. Fulfill order |
+| 4. Restock orders |
+| 5. Print Orders |
+| 6. Exit |
+|-----------------------------------------------|
+
+Please enter your choice: 2
+The first order information: 
+
+customer ID: 200
+customer name: Razan
+order time: 12:00
+pickup time: 14:00
+order items: Tomato, Milk, Ric, 
+quantality: 4kg, 8kg, 10kg, 
+
+
+|-----------------------------------------------|
+|-------- Online Grocery Pickup System ---------|
+|-----------------------------------------------|
+| 1. Add a new order |
+| 2. Lookup the first order|
+| 3. Fulfill order |
+| 4. Restock orders |
+| 5. Print Orders |
+| 6. Exit |
+|-----------------------------------------------|
+
+Please enter your choice: 3
+Please select your option: 
+     1. Fulfill one order
+     2. Fulfill multiple orders
+1
+The first order information: 
+
+customer ID: 200
+customer name: Razan
+order time: 12:00
+pickup time: 14:00
+order items: Tomato, Milk, Ric, 
+quantality: 4kg, 8kg, 10kg, 
+
+The order is fulfilled!
+
+|-----------------------------------------------|
+|-------- Online Grocery Pickup System ---------|
+|-----------------------------------------------|
+| 1. Add a new order |
+| 2. Lookup the first order|
+| 3. Fulfill order |
+| 4. Restock orders |
+| 5. Print Orders |
+| 6. Exit |
+|-----------------------------------------------|
+
+Please enter your choice: 5
+Orders did not fulfill yet:
+
+The orders information: 
+
+customer ID: 300
+customer name: Layan
+order time: 3:00
+pickup time: 5:30
+order items: Apple, Milk, 
+quantality: 3kg, 8kg, 
+
+customer ID: 400
+customer name: Lama
+order time: 16:00
+pickup time: 20:00
+order items: Potato, Tomato, Ric, 
+quantality: 2kg, 8kg, 11kg, 
+
+
+------------------------
+Already Fulfilled orders: 
+
+The orders information: 
+customer ID: 200
+customer name: Razan
+order time: 12:00
+pickup time: 14:00
+order items: Tomato, Milk, Ric, 
+quantality: 4kg, 8kg, 10kg, 
+
+
+|-----------------------------------------------|
+|-------- Online Grocery Pickup System ---------|
+|-----------------------------------------------|
+| 1. Add a new order |
+| 2. Lookup the first order|
+| 3. Fulfill order |
+| 4. Restock orders |
+| 5. Print Orders |
+| 6. Exit |
+|-----------------------------------------------|
+
+Please enter your choice: 4
+All waiting orders: 
+customer ID: 300
+customer name: Layan
+order time: 3:00
+pickup time: 5:30
+order items: Apple, Milk, 
+quantality: 3kg, 8kg, 
+
+customer ID: 400
+customer name: Lama
+order time: 16:00
+pickup time: 20:00
+order items: Potato, Tomato, Ric, 
+quantality: 2kg, 8kg, 11kg, 
+
+
+Please enter the number Of orders to restock   : 1
+customer ID: 400
+customer name: Lama
+order time: 16:00
+pickup time: 20:00
+order items: Potato, Tomato, Ric, 
+quantality: 2kg, 8kg, 11kg, 
+
+customer ID: 300
+customer name: Layan
+order time: 3:00
+pickup time: 5:30
+order items: Apple, Milk, 
+quantality: 3kg, 8kg, 
+
+
+The order(s) restocked successfully!
+
+____________________________________________________________ 
+
+|-----------------------------------------------|
+|-------- Online Grocery Pickup System ---------|
+|-----------------------------------------------|
+| 1. Add a new order |
+| 2. Lookup the first order|
+| 3. Fulfill order |
+| 4. Restock orders |
+| 5. Print Orders |
+| 6. Exit |
+|-----------------------------------------------|
+
+Please enter your choice: 4
+All waiting orders: 
+customer ID: 400
+customer name: Lama
+order time: 16:00
+pickup time: 20:00
+order items: Potato, Tomato, Ric, 
+quantality: 2kg, 8kg, 11kg, 
+
+customer ID: 300
+customer name: Layan
+order time: 3:00
+pickup time: 5:30
+order items: Apple, Milk, 
+quantality: 3kg, 8kg, 
+
+
+Please enter the number Of orders to restock   : 100
+Can’t restock the orders, the number of orders is less than your input  !!!
+|-----------------------------------------------|
+|-------- Online Grocery Pickup System ---------|
+|-----------------------------------------------|
+| 1. Add a new order |
+| 2. Lookup the first order|
+| 3. Fulfill order |
+| 4. Restock orders |
+| 5. Print Orders |
+| 6. Exit |
+|-----------------------------------------------|
+
+Please enter your choice: 3
+Please select your option: 
+     1. Fulfill one order
+     2. Fulfill multiple orders
+2
+Please enter the number of orders that you would like to fulfill: 
+2
+The orders information:
+customer ID: 400
+customer name: Lama
+order time: 16:00
+pickup time: 20:00
+order items: Potato, Tomato, Ric, 
+quantality: 2kg, 8kg, 11kg, 
+
+customer ID: 300
+customer name: Layan
+order time: 3:00
+pickup time: 5:30
+order items: Apple, Milk, 
+quantality: 3kg, 8kg, 
+
+The orders above are fulfilled!!
+
+|-----------------------------------------------|
+|-------- Online Grocery Pickup System ---------|
+|-----------------------------------------------|
+| 1. Add a new order |
+| 2. Lookup the first order|
+| 3. Fulfill order |
+| 4. Restock orders |
+| 5. Print Orders |
+| 6. Exit |
+|-----------------------------------------------|
+
+Please enter your choice: 5
+>>> Error: Cannot print nodes(the Queue is empty )
+
+|-----------------------------------------------|
+|-------- Online Grocery Pickup System ---------|
+|-----------------------------------------------|
+| 1. Add a new order |
+| 2. Lookup the first order|
+| 3. Fulfill order |
+| 4. Restock orders |
+| 5. Print Orders |
+| 6. Exit |
+|-----------------------------------------------|
+
+Please enter your choice: 1
+Please enter the order information:
+
+
+customer ID: 
+500
+
+customer name: 
+Amer
+
+order time: 
+14:00
+
+pickup time: 
+16:00
+
+order items: 
+Potato,Apple,Ric
+
+quantality: 
+3kg,8kg,1kg
+The order is added!
+
+
+|-----------------------------------------------|
+|-------- Online Grocery Pickup System ---------|
+|-----------------------------------------------|
+| 1. Add a new order |
+| 2. Lookup the first order|
+| 3. Fulfill order |
+| 4. Restock orders |
+| 5. Print Orders |
+| 6. Exit |
+|-----------------------------------------------|
+
+Please enter your choice: 5
+Orders did not fulfill yet:
+
+The orders information: 
+
+customer ID: 500
+customer name: Amer
+order time: 14:00
+pickup time: 16:00
+order items: Potato, Apple, Ric, 
+quantality: 3kg, 8kg, 1kg, 
+
+
+------------------------
+Already Fulfilled orders: 
+
+The orders information: 
+customer ID: 300
+customer name: Layan
+order time: 3:00
+pickup time: 5:30
+order items: Apple, Milk, 
+quantality: 3kg, 8kg, 
+
+customer ID: 400
+customer name: Lama
+order time: 16:00
+pickup time: 20:00
+order items: Potato, Tomato, Ric, 
+quantality: 2kg, 8kg, 11kg, 
+
+customer ID: 200
+customer name: Razan
+order time: 12:00
+pickup time: 14:00
+order items: Tomato, Milk, Ric, 
+quantality: 4kg, 8kg, 10kg, 
+
+
+|-----------------------------------------------|
+|-------- Online Grocery Pickup System ---------|
+|-----------------------------------------------|
+| 1. Add a new order |
+| 2. Lookup the first order|
+| 3. Fulfill order |
+| 4. Restock orders |
+| 5. Print Orders |
+| 6. Exit |
+|-----------------------------------------------|
+
+Please enter your choice: 2
+The first order information: 
+
+customer ID: 500
+customer name: Amer
+order time: 14:00
+pickup time: 16:00
+order items: Potato, Apple, Ric, 
+quantality: 3kg, 8kg, 1kg, 
+
+
+|-----------------------------------------------|
+|-------- Online Grocery Pickup System ---------|
+|-----------------------------------------------|
+| 1. Add a new order |
+| 2. Lookup the first order|
+| 3. Fulfill order |
+| 4. Restock orders |
+| 5. Print Orders |
+| 6. Exit |
+|-----------------------------------------------|
+
+Please enter your choice: 9
+>>> Wrong selection...Try again.  
+
+|-----------------------------------------------|
+|-------- Online Grocery Pickup System ---------|
+|-----------------------------------------------|
+| 1. Add a new order |
+| 2. Lookup the first order|
+| 3. Fulfill order |
+| 4. Restock orders |
+| 5. Print Orders |
+| 6. Exit |
+|-----------------------------------------------|
+
+Please enter your choice: 6
+> Goodbye!
+
